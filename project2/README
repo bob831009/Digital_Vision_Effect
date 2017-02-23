@@ -1,0 +1,13 @@
+How to implement:
+打開Matlab
+在command window中下這個command
+main(##folder, ##start_index, ##end_index);
+
+##folder: 放照片的的資料夾
+##start_index: 照片一開始的index, 一般為1
+##end_index: 照片最後的index, 一般為在folder中的照片數
+
+最後他會輸出一個jpg檔，放在同一個目錄底下
+並且以 ##folder_result.jpg 為命名
+
+ex: main('social_library', 1, 20)
